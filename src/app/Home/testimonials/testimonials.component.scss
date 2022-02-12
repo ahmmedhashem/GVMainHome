@@ -1,0 +1,74 @@
+@import "../../../styles.scss";
+
+.testimonails{
+  background-image: url("../../../assets/img/Rectangle\ 290.png");
+    background-size: cover;
+    position: relative;
+    .container{
+        height: 100%;
+        padding: 100px 130px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          padding: 35px 20px;
+        }
+        .heading{
+            margin-bottom: 46px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              margin-bottom: 30px;
+            }
+            h3{
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 69px;
+                color: #100024;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 24px;
+                  line-height: 30px;
+                  margin-bottom: 0;
+                }
+            }
+            span{
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 131%;
+                text-align: center;
+                color: #100024;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 12px;
+                }
+            }
+        }
+    }
+    .right-shap{
+        position: absolute;
+        right: 30.5%;
+        top: 431px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          right: 20px;
+          top: 221px;
+        }
+        svg{
+          @media (min-width: $width1) and (max-width: $width2) {
+            width: 21.5px;
+            height: 43.01px;
+          }
+        }
+    }
+    .left-shap{
+        position: absolute;
+        left: 30.5%;
+        top: 431px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          left: 20px;
+          top: 221px;
+        }
+        svg{
+          @media (min-width: $width1) and (max-width: $width2) {
+            width: 21.5px;
+            height: 43.01px;
+          }
+        }
+    }
+}
+
+
+

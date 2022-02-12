@@ -1,0 +1,84 @@
+@import '../../../styles.scss';
+
+.about{
+    background: #100024;
+    padding: 120px 0;
+    margin-top: -2px;
+    @media (min-width: $width1) and (max-width: $width2) {
+      padding: 21px 0 42px 0;
+    }
+    .student_portal{
+        margin-bottom: 90px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          margin-bottom: 20px;
+        }
+    }
+    .learning{
+        margin-bottom: 90px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          margin-bottom: 20px;
+        }
+        ul{
+            margin-left: 20px;
+            h5{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 131%;
+                color: $textColor;
+                margin-top: 50px;
+                margin-left: 26px;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 12px;
+                  margin-top: 5px;
+                  margin-bottom: 4px;
+                }
+            }
+            svg{
+                margin-right: 15px;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  width: 6.12px;
+                  height: 6.12px;
+                }
+            }
+            li{
+                font-size: 24px;
+                line-height: 131%;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 12px;
+                }
+            }
+        }
+
+    }
+    svg{
+        float: left;
+        margin-right: 25px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          width: 11.31px;
+          height: 11.31px;
+          margin-right: 8px;
+        }
+    }
+    h4{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 131%;
+        margin-bottom: 20px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+    }
+    p{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 131%;
+        text-align: justify;
+        padding: 0 100px 0 45px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          font-size: 12px;
+          padding: 0;
+        }
+    }
+
+}

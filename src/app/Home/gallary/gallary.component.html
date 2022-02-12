@@ -1,0 +1,93 @@
+<div class="gallary">
+    <div class="row">
+        <div class="col-7">
+            <div class="row">
+                <div class="col">
+                    <div class="row half-height">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 271.png" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+
+                    </div>
+                    <div class="row half-height">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 316.png" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row aq">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 314.png" class="dubai" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-5 second">
+            <div class="row aq" >
+                <div class="col">
+                    <div class="row av">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 318.png" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row av">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 317.png" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row av">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 315.png" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row av">
+                        <div class="content">
+                            <div class="cover"></div>
+                            <img src="./assets/img/Rectangle 319.png" alt="emiraites">
+                            <h4>Dubai</h4>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="galary-mobile">
+  <owl-carousel-o [options]="gallaryOptions">
+      <ng-template carouselSlide *ngFor="let gall of gallary">
+          <div class="cont">
+            <div class="cover"></div>
+            <img src="{{gall.img}}" alt="client photo">
+          </div>
+          <div class="caption">
+            <h4>{{gall.title}}</h4>
+            <hr>
+          </div>
+      </ng-template>
+  </owl-carousel-o>
+</div>

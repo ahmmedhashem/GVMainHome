@@ -1,0 +1,44 @@
+<div class="testimonails">
+  <div class="container">
+      <div class="heading text-center">
+          <h3>Testimonials</h3>
+          <span>What people are saying...</span>
+      </div>
+      <owl-carousel-o [options]="testimonialOptions">
+          <ng-template carouselSlide *ngFor="let testimonail of testimonails">
+              <div class="cont">
+                  <img src="{{testimonail.img}}" alt="client photo">
+                  <div class="caption">
+                      <h5>{{testimonail.name}}</h5>
+                      <p>{{testimonail.disc}}</p>
+                  </div>
+              </div>
+          </ng-template>
+      </owl-carousel-o>
+      <div class="left-shap">
+          <svg width="47" height="94" viewBox="0 0 47 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.565918 47V93.2857H46.8517V47H15.9946C15.9946 29.9857 29.8374 16.1429 46.8517 16.1429V0.714172C21.3282 0.714172 0.565918 21.4764 0.565918 47Z" fill="#100024" fill-opacity="0.1"/>
+          </svg>
+
+          <svg width="47" height="94" viewBox="0 0 47 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.565918 47V93.2857H46.8517V47H15.9946C15.9946 29.9857 29.8374 16.1429 46.8517 16.1429V0.714172C21.3282 0.714172 0.565918 21.4764 0.565918 47Z" fill="#100024" fill-opacity="0.1"/>
+          </svg>
+
+      </div>
+      <div class="right-shap">
+          <svg width="47" height="94" viewBox="0 0 47 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M46.5659 47L46.5659 0.714249L0.280128 0.714253L0.280132 47L31.1372 47C31.1372 64.0143 17.2944 77.8571 0.280135 77.8571L0.280136 93.2858C25.8037 93.2858 46.5659 72.5236 46.5659 47Z" fill="#100024" fill-opacity="0.1"/>
+          </svg>
+
+          <svg width="47" height="94" viewBox="0 0 47 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M46.5659 47L46.5659 0.714249L0.280128 0.714253L0.280132 47L31.1372 47C31.1372 64.0143 17.2944 77.8571 0.280135 77.8571L0.280136 93.2858C25.8037 93.2858 46.5659 72.5236 46.5659 47Z" fill="#100024" fill-opacity="0.1"/>
+          </svg>
+
+      </div>
+  </div>
+</div>
+
+
+
+
+

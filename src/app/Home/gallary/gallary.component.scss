@@ -1,0 +1,94 @@
+@import '../../../styles.scss';
+
+.gallary{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    @media (min-width: $width1) and (max-width: $width2) {
+      display: none;
+    }
+    .row{
+
+        .col,.col-7,.col-5{
+            margin: 0;
+            padding: 0;
+        }
+        .col-7,.col-5{
+            padding: 0 6px;
+        }
+        .half-height{
+          height: 50%;
+        }
+        .aq{
+            height: 100%;
+        }
+        .dubai{
+            height: 1094px;
+        }
+        .second{
+            .av{
+                height: 50%;
+            }
+            img{
+                height: 547px;
+            }
+        }
+        .content{
+            position: relative;
+            padding: 0;
+            margin: 0;
+            &:hover .cover{
+                width: 0;
+                transition: all 1s ease-in-out ;
+            }
+            &:hover h4{
+              opacity: 1;
+              transition: all 2s ease-in-out;
+            }
+            &:hover hr{
+              opacity: 1;
+              transition: all 2s ease-in-out;
+            }
+            h4{
+                position: absolute;
+                bottom: 127px;
+                left: 58px;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 107.19%;
+                text-align: justify;
+                opacity: 0;
+            }
+            hr{
+                position: absolute;
+                bottom: 95px;
+                left: 58px;
+                width: 30px;
+                height: 5px;
+                background: $textColor;
+                opacity: 0;
+            }
+            .cover{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 96%;
+                height: 100%;
+                max-height: 100%;
+                background-color: rgba($color: #000000, $alpha: 0.8);
+            }
+            img{
+                width: 96.3%;
+                min-height: 100%;
+            }
+        }
+    }
+}
+
+.galary-mobile{
+  background-color: #2b0d50;
+  display: none;
+  @media (min-width: $width1) and (max-width: $width2) {
+    display: block;
+  }
+}

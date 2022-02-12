@@ -1,0 +1,26 @@
+<div class="program text-center">
+    <div class="container">
+        <div class="heading">
+            <h3>Our Programs</h3>
+        </div>
+
+        <div class="slider">
+          <owl-carousel-o [options]="programlOptions">
+            <ng-template carouselSlide *ngFor="let program of programs">
+                <div class="cont">
+                  <div class="cover"></div>
+                  <img src="{{program.img}}" alt="client photo">
+                </div>
+                <div class="caption">
+                  <h4>{{program.title}}</h4>
+                </div>
+            </ng-template>
+        </owl-carousel-o>
+        </div>
+        <p>To check all our programs please Sign-up<a href="#">Sign-up</a></p>
+
+    </div>
+</div>
+
+
+

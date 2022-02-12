@@ -1,0 +1,179 @@
+@import '../../../styles.scss';
+
+footer{
+    background-color: #100024;
+    padding: 50px 0;
+    position: relative;
+    @media (min-width: $width1) and (max-width: $width2) {
+      padding: 29px 0 0 0;
+    }
+    .first,.second{
+        .epi{
+            position: absolute;
+            width: 88%;
+            overflow: hidden;
+            height: 119%;
+            left: -446px;
+            bottom: 0px;
+            background: radial-gradient(50% 50% at 50% 50%, rgba(248, 58, 205, 0.5) 0%, rgba(26, 25, 29, 0) 100%);
+        }
+        img{
+          display: none;
+          @media (min-width: $width1) and (max-width: $width2) {
+            display: inline-block;
+            width: 85px;
+            height: 73px;
+          }
+        }
+        ul{
+            list-style: none;
+            @media (min-width: $width1) and (max-width: $width2) {
+              margin-top: 16px;
+              line-height: none;
+            }
+            h3{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 296.69%;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 18px;
+                  line-height: unset;
+                }
+            }
+            li,li a{
+
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 50px;
+                text-decoration: none;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 12px;
+                  line-height: 33px;
+                }
+            }
+        }
+        .show-mob{
+          display: none;
+          @media (min-width: $width1) and (max-width: $width2) {
+            display: block;
+            background: rgba(255, 255, 255, 0.4);
+            margin: 0;
+          }
+
+        }
+        .collection{
+            margin-top: 83px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              margin-top: 14px;
+            }
+        }
+        .news_letter{
+            width: 100%;
+            background: rgba(128, 28, 117, 0.2);
+            margin-top: 32px;
+            padding: 20px 25px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              margin-top: 10px;
+            }
+            h3{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 310.69%;
+                letter-spacing: 2px;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 18px;
+                }
+            }
+            .send_email{
+                position: relative;
+                margin-bottom: 30px;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  margin-bottom: 0px;
+                }
+                input{
+                    background-color: unset;
+                    border: none;
+                    border-bottom: 1px solid $textColor;
+                    line-height: 40px;
+                    width: 100%;
+                    @media (min-width: $width1) and (max-width: $width2) {
+                      font-size: 12px;
+                    }
+                    &::placeholder{
+                      @media (min-width: $width1) and (max-width: $width2) {
+                        font-size: 12px;
+                      }
+                    }
+                }
+                button{
+                    position: absolute;
+                    top: 10px;
+                    right: 0px;
+                    background-color: unset;
+                    border: none;
+                    svg{
+                      @media (min-width: $width1) and (max-width: $width2) {
+                        width: 15px;
+                      }
+                    }
+                }
+            }
+            br{
+              @media (min-width: $width1) and (max-width: $width2) {
+                display: none;
+              }
+            }
+            .shape{
+                position: relative;
+                top: 12px;
+                float: left;
+                margin-right: 10px;
+                svg.aaa{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    @media (min-width: $width1) and (max-width: $width2) {
+                      width: 15px;
+                    }
+                }
+                svg.bbb{
+                    position: absolute;
+                    top: 7px;
+                    left: 6px;
+                    @media (min-width: $width1) and (max-width: $width2) {
+                      width: 9px;
+                      left: 3px;
+                    }
+                }
+            }
+            p{
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 50px;
+                margin-left: 32px;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  font-size: 12px;
+                }
+            }
+        }
+
+    }
+    .copyright{
+      display: none;
+      @media (min-width: $width1) and (max-width: $width2) {
+       display: block;
+    }
+      p{
+          opacity: 0.8;
+          font-size: 16px;
+          line-height: 66px;
+          animation: swing;
+          animation-duration: 2s;
+          @media (min-width: $width1) and (max-width: $width2) {
+              background: linear-gradient(270deg, #131313 -40.25%, #686868 164.47%);
+              margin: 0;
+              font-size: 12px;
+          }
+      }
+  }
+}

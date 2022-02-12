@@ -1,0 +1,445 @@
+@import '../../../styles.scss';
+
+.contan{
+    background: #2b0c50;
+    position: relative;
+    overflow: hidden;
+    padding-top: 186px;
+    @media (min-width: $width1) and (max-width: $width2) {
+      padding-top: 99px;
+    }
+    .shape1{
+        position: absolute;
+        width: 2471px;
+        height: 2471px;
+        left: 513.5px;
+        top: -898px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(133, 99, 238, 0.4) 0%, rgba(26, 25, 29, 0) 100%);
+        @media (min-width: $width1) and (max-width: $width2) {
+          width: 359px;
+          height: 471px;
+          left: 129.5px;
+          top: 29px;
+        }
+    }
+    .shape2{
+        position: absolute;
+        width: 1380px;
+        height: 2120px;
+        left: -694.5px;
+        top: 77px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(248, 58, 205, 0.5) 0%, rgba(26, 25, 29, 0) 100%);
+        @media (min-width: $width1) and (max-width: $width2) {
+          height: 1569px;
+          left: -890.5px;
+          top: -971px;
+        }
+    }
+    .shap3{
+      position: absolute;
+      width: 1380px;
+      height: 2120px;
+      left: -694.5px;
+      top: 77px;
+      display: none;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(248, 58, 205, 0.5) 0%, rgba(26, 25, 29, 0) 100%);
+      @media (min-width: $width1) and (max-width: $width2) {
+        display: block;
+        width: 359px;
+        height: 471px;
+        left: -195px;
+        top: 520px;
+      }
+  }
+  .shap4{
+    position: absolute;
+    width: 1380px;
+    height: 2120px;
+    left: -694.5px;
+    top: 77px;
+    display: none;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(248, 58, 205, 0.5) 0%, rgba(26, 25, 29, 0) 100%);
+    @media (min-width: $width1) and (max-width: $width2) {
+      display: block;
+      width: 859px;
+      height: 977px;
+      left: 51.5px;
+      top: 795px;
+
+    }
+}
+    .guiter{
+        position: absolute;
+        width: 1160px;
+        height: 939px;
+        top: 70px;
+        // background-image: url("../../../assets/img/guitar\ 1.png");
+        mix-blend-mode: color-dodge;
+        border-radius: 326px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          width: 355px;
+          height: 254px;
+          top: 333px;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+        }
+    }
+    .running{
+        width: 565px;
+        height: 483px;
+        // background-image: url("../../../assets/img/guitar\ 2.png");
+        position: absolute;
+        top: 850px;
+        right: 0;
+        background-blend-mode: hard-light, normal;
+        mix-blend-mode: color-dodge;
+        border-radius: 116px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          width: 226px;
+          height: 193px;
+          top: -64px;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+        }
+    }
+
+    .disc{
+        margin-top: 150px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          margin-top: 82px;
+        }
+        h3{
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 69px;
+            margin-bottom: 40px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              font-size: 36px;
+              margin-bottom: 28px;
+            }
+        }
+        p{
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 131%;
+            text-align: center;
+            padding: 0 258px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              font-size: 14px;
+              padding: 0;
+              margin-bottom: 5px;
+            }
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .sponser{
+        margin-top: 30px;
+        text-align: center;
+        padding: 0 260px;
+        @media (min-width: $width1) and (max-width: $width2) {
+          padding: 0 70px;
+          margin-top: 17px;
+        }
+        button{
+            border: 1px solid $textColor;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin-top: 23px;
+            background-color: unset;
+            color: $textColor;
+            padding: 4px 15px;
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 50px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              font-size: 14px;
+              margin-top: 0;
+              margin-bottom: 70px;
+            }
+            svg{
+                margin-left: 5px;
+                @media (min-width: $width1) and (max-width: $width2) {
+                  width: 20px;
+                }
+            }
+
+        }
+    }
+    .map{
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        height: 700px;
+        .cont-one{
+          position: absolute;
+          bottom: 64px;
+          left: 58px;
+          width: 300px;
+          @media (min-width: $width1) and (max-width: $width2) {
+            bottom: unset;
+            left: -14px;
+            top: -55px;
+            width: 280px;
+            margin-top: 50px;
+          }
+          .cont{
+            position: absolute;
+            right: 0;
+            top: 119px;
+            width: 43%;
+            @media (min-width: $width1) and (max-width: $width2) {
+              left: 103px;
+              top: 94px;
+              width: 38%;
+              right: unset;
+            }
+            img{
+              position: absolute;
+              left: -26px;
+              @media (min-width: $width1) and (max-width: $width2) {
+                left: -21px;
+                width: 17px;
+              }
+            }
+
+            h4{
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 100%;
+              color: $textColor;
+              text-align: left;
+              @media (min-width: $width1) and (max-width: $width2) {
+                font-size: 14px;
+              }
+            }
+            hr{
+              background-color: $textColor;
+              height: 2px;
+              opacity: 1;
+              width: 45px;
+              position: relative;
+              top: 0;
+              @media (min-width: $width1) and (max-width: $width2) {
+                width: 24px;
+                margin: 13px 0;
+              }
+            }
+            p{
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 131%;
+              width: 158%;
+              text-align: left;
+              position: relative;
+              opacity: 0.7;
+              @media (min-width: $width1) and (max-width: $width2) {
+                font-size: 14px;
+              }
+              span{
+                  font-weight: bold;
+                  opacity: 1!important;
+              }
+            }
+          }
+          h2{
+            font-weight: bold;
+            font-size: 144px;
+            line-height: 131%;
+            text-align: center;
+            color: rgba(243, 59, 206, 0.5);
+            @media (min-width: $width1) and (max-width: $width2) {
+              font-size: 72px;
+            }
+          }
+
+
+        }
+        .cont-two{
+          @extend .cont-one;
+          top: 0;
+          left: 140px;
+          bottom: unset;
+          @media (min-width: $width1) and (max-width: $width2) {
+            bottom: unset;
+            left: -14px;
+            top: 141px;
+            width: 280px;
+           }
+        }
+        .cont-three{
+          @extend .cont-one;
+          bottom: 64px;
+          left: 500px;
+          @media (min-width: $width1) and (max-width: $width2) {
+            bottom: unset;
+            left: -14px;
+            top: 353px;
+            width: 280px;
+           }
+
+        }
+        .cont-four{
+          @extend .cont-one;
+          top: 0;
+          right: 203px;
+          bottom: unset;
+          left: unset;
+          @media (min-width: $width1) and (max-width: $width2) {
+            bottom: unset;
+            left: -14px;
+            top: 579px;
+            width: 280px;
+           }
+        }
+        .cont-five{
+          @extend .cont-one;
+          bottom: 64px;
+          right: 36px;
+          left: unset;
+          @media (min-width: $width1) and (max-width: $width2) {
+            bottom: unset;
+            left: -14px;
+            top: 812px;
+            width: 280px;
+           }
+        }
+        .basic{
+            position: relative;
+            top: 380px;
+            background-color: $textColor;
+            opacity: 1;
+            width: 85%;
+            left: 134px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              width: 867px;
+              left: -383px;
+              transform: rotate(90deg);
+              top: 530px;
+            }
+        }
+        .line1,.line2,.line3,.line4,.line5{
+            position: absolute;
+            background-color: $textColor;
+            opacity: 1;
+            height: 2px;
+            width: 80px;
+            transform: rotate(90deg);
+            @media (min-width: $width1) and (max-width: $width2) {
+              width: 13px;
+              left: -350px;
+              transform: none;
+            }
+        }
+        .line1{
+            top: 324px;
+            left: 360px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              top: 79px;
+              left: 50px;
+            }
+
+        }
+        .line2{
+            top: 324px;
+            right: 220px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              top: 275px;
+              left: 50px;
+            }
+        }
+        .line3{
+            top: 404px;
+            left: 202px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              top: 488px;
+              left: 50px;
+            }
+        }
+        .line4{
+            top: 404px;
+            left: 660px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              top: 714px;
+              left: 50px;
+            }
+        }
+        .line5{
+            top: 404px;
+            right: 104px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              top: 948px;
+              left: 50px;
+            }
+        }
+        .row-two{
+            position: relative;
+            top: 280px;
+            .cont3,.cont4,.cont5{
+                top: -70px;
+                position: relative;
+                left: 27px;
+                hr{
+                    position: relative;
+                }
+                p{
+                    position: relative;
+                }
+            }
+            .cont3{
+                hr,p{
+                    left: 167px;
+                }
+            }
+            .cont4{
+                hr,p{
+                    left: 147px;
+                }
+            }
+            .cont5{
+                hr,p{
+                    left: 116px;
+                }
+            }
+        }
+
+    }
+    .emirates{
+        position: relative;
+        margin: 314px 0 134px 0;
+        @media (min-width: $width1) and (max-width: $width2) {
+          margin: 512px 0 41px 0;
+        }
+        .right,.left{
+            background-color: #FFF;
+            height: 1px;
+            width: 400px;
+            @media (min-width: $width1) and (max-width: $width2) {
+              width: 51px;
+              opacity: 1;
+            }
+        }
+        .right{
+            float: left;
+        }
+        h3{
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 107.19%;
+            text-align: justify;
+            display: inline-block;
+            @media (min-width: $width1) and (max-width: $width2) {
+              font-size: 24px;
+            }
+        }
+        .left{
+            float: right;
+
+        }
+    }
+}
